@@ -1,4 +1,4 @@
-1(function() {
+(function() {
     "use strict";
 
     var http = require('http'),

@@ -1,0 +1,9 @@
+extends ./baseLayout
+
+block body
+    h1
+        | Wearables
+    ul
+        each wearable in page
+            li
+                = wearable.name + ' - ' + wearable.decs

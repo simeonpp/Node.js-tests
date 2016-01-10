@@ -1,0 +1,9 @@
+extends ./baseLayout
+
+block body
+    h1
+        | Our phones
+    ul
+        each phone in page
+            li
+                = phone.name + ' - ' + phone.specs

@@ -1,0 +1,9 @@
+extends ./baseLayout
+
+block body
+    h1
+        | Our Tablets
+    ul
+        each table in page
+            li
+                = table.name + ' - ' + table.specs

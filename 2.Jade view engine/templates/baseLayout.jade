@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+    head
+        title
+            | Phone buying
+    body
+        nav
+            block navigation
+                ul
+                    each nav in navs
+                        li
+                            a(href= nav.url + '.html')= nav.title
+        #root
+            block body
+        footer
+            block footer
+                | copyrights@A

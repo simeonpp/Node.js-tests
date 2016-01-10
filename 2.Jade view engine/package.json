@@ -1,0 +1,17 @@
+{
+  "name": "simple-jade-template-site",
+  "version": "1.0.0",
+  "description": "Simple html pages generated with jade view engine. ",
+  "main": "renderedHTML/index.html",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "jade": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}

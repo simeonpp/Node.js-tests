@@ -9,3 +9,6 @@
 	* All pages must have the same header, navigation and footer
 	* Use Jade and Jade Layouts
 	* Use the `each` directive to create the navigation
+
+# Start instructions #
+    npm start
